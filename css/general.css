@@ -88,6 +88,12 @@ body {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 }
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
@@ -185,6 +191,24 @@ body {
   padding-bottom: 2px;
   display: inline-block;
   transition: all 0.3s;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #6f4e37;
+}
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 .link:hover,
