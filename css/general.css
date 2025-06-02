@@ -107,6 +107,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -237,8 +241,8 @@ body {
   outline: none;
   /* outline: 4px dotted #555;
   outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(111, 78, 55, 0.5);
-  border-radius: 9px;
+  box-shadow: 0 0 0 0.6rem rgba(111, 78, 55, 0.5);
+  border-radius: 3px;
 }
 
 .margin-right-sm {
@@ -260,5 +264,5 @@ strong {
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem #f6e4d780;
-  border-radius: 9px;
+  border-radius: 6px;
 }
