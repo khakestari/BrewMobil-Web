@@ -13,29 +13,30 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="js/script.js"></script>
     <title>brewMobil</title>
   </head>
   <body>
-    <header class="header nav-open">
+    <header class="header">
       <a href="#">
         <img class="logo" src="img/omnifood-logo.png" alt="BrewMobil Logo" />
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="#">How it works</a>
+            <a class="main-nav-link" href="#how">How it works</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Coffees</a>
+            <a class="main-nav-link" href="#coffees">Coffees</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Testimonials</a>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Pricing</a>
+            <a class="main-nav-link" href="#pricing">Pricing</a>
           </li>
           <li>
-            <a class="main-nav-link nav-cta" href="#">Try for free</a>
+            <a class="main-nav-link nav-cta" href="#cta">Try for free</a>
           </li>
         </ul>
       </nav>
@@ -55,10 +56,10 @@
               The smart, on-demand coffee subscription that fuels your day.
               Brewed by pros, delivered to you.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
             <div class="delivered-cups">
               <div class="delivered-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
@@ -98,7 +99,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -161,7 +162,7 @@
           </div>
         </div>
       </section>
-      <section class="section-coffees">
+      <section class="section-coffees" id="coffees">
         <div class="container center-text">
           <span class="subheading">Coffees</span>
           <h2 class="heading-secondary">
@@ -265,7 +266,7 @@
           <a href="#" class="link">See all recipes &rarr;</a>
         </div>
       </section>
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonial-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -359,7 +360,7 @@
           </figure>
         </div>
       </section>
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">We Have 2 Pricing Plans</h2>
@@ -468,7 +469,7 @@
           </div>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -550,7 +551,8 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2027 by BrewMobil, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2027</span> by BrewMobil, Inc.
+            All rights reserved.
           </p>
         </div>
         <div class="address-col">
@@ -603,6 +605,10 @@
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
   </body>
 </html>
